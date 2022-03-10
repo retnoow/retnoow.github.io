@@ -1,0 +1,38 @@
+@font-face {
+    font-family: VT323;
+    src: url('../buildwith/fonts/VT323-Regular.ttf');
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 70%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.header {
+    background: burlywood;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header .container .logo {
+    font-family: Roboto;
+}
+
+.header .navigation li {
+
+    display: block;
+}
+
+.header .navigation li a {
+    color: blue;
+    text-decoration: none;
+}
+
+.header .navigation li a:hover {
+    color: red;
+}
